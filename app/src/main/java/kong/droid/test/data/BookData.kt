@@ -40,13 +40,3 @@ data class BookDetailItem(
     var url: String? = "",
 ) : Parcelable
 
-
-@Parcelize
-data class BookData(
-    var isbn13: String?="",
-    var title: String? = "",
-    var author: String? = "",
-    var publisher: String? = "",
-    var image: String? = "",
-    var price: String? = ""
-) : Parcelable
